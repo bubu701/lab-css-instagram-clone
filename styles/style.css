@@ -7,4 +7,109 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(
+    to bottom,
+    #06365f 0%,
+    #06365f 40%,
+    white 40%,
+    white 100% 
+  );
+  margin-top: 150px;
+}
+
+.content-block{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.cenas {
+  max-width: 550px;
+}
+
+
+.cenas button{
+background-size: cover; 
+border: 0;
+background-repeat: no-repeat;
+}
+
+
+
+#iphones{
+  max-height: 500px;
+}
+
+
+#shadow{
+  background-image: url("../images/frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px 50px 10px 50px;
+}
+
+#shadow > h1{
+  font-size: 25px;
+  color: #06365f;
+}
+
+#shadow > p{
+  font-size: 14px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: auto;
+  align-items: center;
+  font-size: 14px;
+}
+
+footer > ul{
+  width: 70%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #1c5380;
+}
+
+footer > p{
+  margin-right: auto;
+  margin-left: auto;
+  color: grey;
+}
+
+#app-store{
+  width: 164px;
+    height: 51px;
+  background-image: url('../images/badge-iphone.png');
+  margin-left: 50px;
+}
+
+#play-store{
+  width: 153px;
+    height: 51px;
+  background-image: url('../images/badge-android.png');
+  margin-left: 10px;
+}
+
+
+.titulo-cenas{
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo-cenas button{
+  align-self: center;
+  margin-right: 10px;
+  background-color: #1c5380;
+  color: white;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  min-height: 30px;
 }
